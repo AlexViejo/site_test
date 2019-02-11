@@ -30,7 +30,7 @@ li {
 }
 
 .clearfix::after {
-    content: **;
+    content: attr('**');
     display: block;
     clear: both;
 }
